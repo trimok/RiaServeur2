@@ -1,7 +1,7 @@
 package fr.afcepf.al22.riaserveur2.test;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class TestRiaServeur2 {
 
