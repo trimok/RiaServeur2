@@ -2,7 +2,7 @@ package fr.afcepf.al22.riaserveur2.test;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,7 +23,7 @@ public class NewTest {
 		System.setProperty("webdriver.chrome.driver", "D:\\logiciels\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 
-		//driver = new InternetExplorerDriver();
+		// driver = new InternetExplorerDriver();
 	}
 
 	@AfterTest
